@@ -1,0 +1,234 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* max-width: 800px */
+}
+
+.first{
+    background-color: red;
+    height: 607px;
+    width: 100%;
+}
+
+#parentcontainer{
+    height:570px;
+    width: 100%;
+    background-color: rosybrown;
+    position: absolute;
+    left: 20%;
+    top: 20px;
+    max-width: 800px;
+    border-radius: 20px;
+}
+
+.topic{
+    font-family: cambria;
+    font-weight: 600;
+    color: white;
+    padding-top: 20px;
+    padding-left: 25%;
+    
+}
+
+#list{
+    height: 90px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    left: 30px;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#firstbutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 90%;
+    top:6%;
+    cursor: pointer;
+    display: block;
+    
+}
+#secondtbutton{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 90%;
+    top:-45%;
+    cursor: pointer;
+    display: block;
+   
+}
+#define{
+    height: 80px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 17%;
+    left: 30px;
+    font-size: 17px;
+    font-family: cursive;
+    font-weight: lighter;
+    display: none;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    
+}
+#list2{
+    height: 90px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    left: 30px;
+    top: 35%;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#firstbutton1{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 80%;
+    top:36%;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    
+}
+
+#define2{
+    height: 90px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 42%;
+    left: 30px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: lighter;
+    display: none;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    line-height: 20px;
+    
+}
+
+#secondbutton2{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 80%;
+    top:36%;
+    cursor: pointer;
+    display: block;
+    padding-top: 4px;
+    padding-left: 5px;
+   
+}
+
+#htmlbasic{
+    height: 90px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 62%;
+    left: 30px;
+    font-size: 30px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#arrowdown{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 80%;
+    top:63%;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    
+}
+
+#basiclist{
+    height: 106px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    line-height: 20px;
+    top: 68%;
+    left: 30px;
+    font-size: 16px;
+    font-family: cursive;
+    font-weight: lighter;
+    display: block;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    padding-left: 20px;
+    display: none;
+}
+#arrowup{
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 90%;
+    top:-28%;
+    cursor: pointer;
+    display: block;
+}
