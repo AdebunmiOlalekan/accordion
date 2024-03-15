@@ -2,13 +2,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* max-width: 800px */
+  
 }
 
 .first{
     background-color: red;
     height: 607px;
     width: 100%;
+    
+    
+    
 }
 
 #parentcontainer{
@@ -16,10 +19,11 @@
     width: 100%;
     background-color: rosybrown;
     position: absolute;
-    left: 20%;
+    left: 25%;
     top: 20px;
-    max-width: 800px;
+    max-width: 700px;
     border-radius: 20px;
+   
 }
 
 .topic{
@@ -127,7 +131,7 @@
 }
 
 #define2{
-    height: 90px;
+    height: 100px;
     width: 85%;
     padding-left: 8px;
     background-color: cadetblue;
@@ -231,4 +235,237 @@
     top:-28%;
     cursor: pointer;
     display: block;
+}
+@media(max-width:480px){
+    .first{
+        background-color: red;
+        height: 607px;
+        width: 100%;
+    }
+    #parentcontainer{
+        height:550px;
+        width: 87%;
+        background-color: rosybrown;
+        position: absolute;
+        left: 7%;
+        top: 20px;
+        border-radius: 20px;
+    }
+    .topic{
+        font-family: cambria;
+        font-weight: 600;
+        color: white;
+        padding-top: 20px;
+        padding-left: 15%;
+        font-size: 11px;
+        
+    }
+    
+#list{
+    height: 60px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    left: 30px;
+    font-size: 17px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#firstbutton{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: none;
+    position: absolute;
+    left: 90%;
+    top:0%;
+    cursor: pointer;
+    display: block;
+    
+  
+}
+#secondtbutton{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: white;
+    position: absolute;
+    left: 90%;
+    top:-26%;
+    cursor: pointer;
+    display: block;
+   
+}
+#define{
+    height: 80px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 12%;
+    left: 30px;
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 500;
+    color: black;
+    display: none;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    
+}
+
+#list2{
+    height: 90px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    left: 30px;
+    top: 29%;
+    font-size: 17px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+#firstbutton1{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 85%;
+    top:29%;
+    cursor: pointer;
+    display: block;
+    /* z-index: 1; */
+    
+}
+
+#define2{
+    height: 113px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    top: 33%;
+    left: 30px;
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 500;
+    display: none;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    line-height: 14px;
+    
+}
+
+#secondbutton2{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: none;
+    position: absolute;
+    left: 85%;
+    top:29%;
+    cursor: pointer;
+    display: block;
+    padding-top: 0px;
+    padding-left: 0px;
+    z-index: 1;
+    
+   
+}
+
+#htmlbasic{
+    height: 60px;
+    width: 85%;
+    background-color: cadetblue;
+    position: absolute;
+    top: 56%;
+    left: 30px;
+    font-size: 17px;
+    font-family: calibri;
+    font-weight: bold;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding-left: 10px;
+
+}
+
+#arrowdown{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 85%;
+    top:56%;
+    cursor: pointer;
+    display: block;
+    z-index: 1;
+    
+}
+
+#basiclist{
+    height: 106px;
+    width: 85%;
+    padding-left: 8px;
+    background-color: cadetblue;
+    position: absolute;
+    line-height: 15px;
+    top: 60%;
+    left: 30px;
+    font-size: 13px;
+    font-family: calibri;
+    font-weight: 500;
+    display: block;
+    cursor: pointer;
+    border: 2px solid white;
+    border-top: none;
+    border-bottom-left-radius: 10px;  
+    border-bottom-right-radius: 10px; 
+    padding-left: 20px;
+    display: none;
+}
+#arrowup{
+    height: 0px;
+    width: 0px;
+    border-radius: 0%;
+    border: none;
+    font-size: 20px;
+    font-weight: bold;
+    background-color: bisque;
+    position: absolute;
+    left: 90%;
+    top:-23%;
+    cursor: pointer;
+    display: block;
+}
 }

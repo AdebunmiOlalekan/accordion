@@ -13,6 +13,7 @@ function secondArrow(){
 function FirstArrow(){
     document.querySelector("#define2").style.display= "block"
     document.querySelector("#firstbutton1").style.display="none"
+    document.querySelector("#secondbutton2").style.display="block"
 }
 function secondArrow1(){
     document.querySelector("#define2").style.display= "none"
