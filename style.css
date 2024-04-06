@@ -6,12 +6,9 @@
 }
 
 .first{
-    background-color: red;
+    background-color: wheat;
     height: 607px;
-    width: 100%;
-    
-    
-    
+    width: 100%;   
 }
 
 #parentcontainer{
@@ -27,9 +24,9 @@
 }
 
 .topic{
-    font-family: cambria;
+    font-family: calibri;
     font-weight: 600;
-    color: white;
+    color: #a1a6b4;
     padding-top: 20px;
     padding-left: 25%;
     
@@ -238,7 +235,7 @@
 }
 @media(max-width:480px){
     .first{
-        background-color: red;
+        background-color: white;
         height: 607px;
         width: 100%;
     }
@@ -247,7 +244,7 @@
         width: 87%;
         background-color: rosybrown;
         position: absolute;
-        left: 7%;
+        left: 4%;
         top: 20px;
         border-radius: 20px;
     }
@@ -355,7 +352,7 @@
     top:29%;
     cursor: pointer;
     display: block;
-    /* z-index: 1; */
+    z-index: 1;
     
 }
 
@@ -392,10 +389,10 @@
     left: 85%;
     top:29%;
     cursor: pointer;
-    display: block;
+    display: none;
     padding-top: 0px;
     padding-left: 0px;
-    z-index: 1;
+    /* z-index: 1; */
     
    
 }
