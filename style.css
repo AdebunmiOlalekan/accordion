@@ -29,7 +29,6 @@
     color: #a1a6b4;
     padding-top: 20px;
     padding-left: 25%;
-    
 }
 
 #list{
@@ -237,20 +236,13 @@
     .first{
         background-color: white;
         height: 607px;
-        width: 100%;
     }
     #parentcontainer{
         height:550px;
         width: 87%;
-        background-color: rosybrown;
-        position: absolute;
         left: 4%;
-        top: 20px;
-        border-radius: 20px;
     }
     .topic{
-        font-family: cambria;
-        font-weight: 600;
         color: white;
         padding-top: 20px;
         padding-left: 15%;
@@ -261,16 +253,9 @@
 #list{
     height: 60px;
     width: 85%;
-    background-color: cadetblue;
-    position: absolute;
     left: 30px;
     font-size: 17px;
-    font-family: calibri;
-    font-weight: bold;
-    border: 2px solid white;
-    border-radius: 10px;
     padding-left: 10px;
-
 }
 #firstbutton{
     height: 0px;
@@ -280,13 +265,9 @@
     font-size: 20px;
     font-weight: bold;
     background-color: none;
-    position: absolute;
     left: 90%;
     top:0%;
-    cursor: pointer;
     display: block;
-    
-  
 }
 #secondtbutton{
     height: 0px;
@@ -296,19 +277,14 @@
     font-size: 20px;
     font-weight: bold;
     background-color: white;
-    position: absolute;
     left: 90%;
     top:-26%;
-    cursor: pointer;
     display: block;
-   
 }
 #define{
     height: 80px;
     width: 85%;
     padding-left: 8px;
-    background-color: cadetblue;
-    position: absolute;
     top: 12%;
     left: 30px;
     font-size: 13px;
@@ -317,15 +293,11 @@
     color: black;
     display: none;
     cursor: pointer;
-    border: 2px solid white;
     border-top: none;
-    border-bottom-left-radius: 10px;  
-    border-bottom-right-radius: 10px; 
-    
 }
 
 #list2{
-    height: 90px;
+    height: 60px;
     width: 85%;
     background-color: cadetblue;
     position: absolute;
@@ -334,10 +306,6 @@
     font-size: 17px;
     font-family: calibri;
     font-weight: bold;
-    border: 2px solid white;
-    border-radius: 10px;
-    padding-left: 10px;
-
 }
 #firstbutton1{
     height: 0px;
@@ -360,23 +328,15 @@
     height: 113px;
     width: 85%;
     padding-left: 8px;
-    background-color: cadetblue;
-    position: absolute;
     top: 33%;
     left: 30px;
     font-size: 13px;
     font-family: calibri;
     font-weight: 500;
     display: none;
-    cursor: pointer;
-    border: 2px solid white;
     border-top: none;
-    border-bottom-left-radius: 10px;  
-    border-bottom-right-radius: 10px; 
     line-height: 14px;
-    
 }
-
 #secondbutton2{
     height: 0px;
     width: 0px;
@@ -388,15 +348,10 @@
     position: absolute;
     left: 85%;
     top:29%;
-    cursor: pointer;
     display: none;
     padding-top: 0px;
-    padding-left: 0px;
-    /* z-index: 1; */
-    
-   
+    padding-left: 0px; 
 }
-
 #htmlbasic{
     height: 60px;
     width: 85%;
@@ -410,9 +365,7 @@
     border: 2px solid white;
     border-radius: 10px;
     padding-left: 10px;
-
 }
-
 #arrowdown{
     height: 0px;
     width: 0px;
@@ -427,15 +380,11 @@
     cursor: pointer;
     display: block;
     z-index: 1;
-    
 }
-
 #basiclist{
     height: 106px;
     width: 85%;
     padding-left: 8px;
-    background-color: cadetblue;
-    position: absolute;
     line-height: 15px;
     top: 60%;
     left: 30px;
